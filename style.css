@@ -1,0 +1,47 @@
+body {
+    background-image: url(./header.jpeg);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 240px;
+    padding: 50px;
+    background-color: orange;
+    width: 50%;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.container:hover {
+    opacity: 0.8;
+    background:darkorange;
+}
+#btn {
+    display: flex;
+    margin: 0 auto;
+    background: gold;
+    border-radius: 20px;
+    border-color: gold;
+    cursor: pointer;
+}
+#btn:hover {
+    background: red;
+}
+input {
+    height: 30px;
+    border-radius: 20px;
+    border-color: gold;
+    cursor: pointer;
+}
+select {
+    height: 35px;
+    border-radius: 20px;
+    border-color: gold;
+    cursor: pointer;
+}
+svg {
+    position: relative;
+    top: 5px;
+}
